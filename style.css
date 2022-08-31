@@ -1,0 +1,143 @@
+/*  FONTS
+  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
+
+*/
+
+p, button, a {
+  all: unset;
+  display: block;
+}
+
+
+
+
+.body {
+  max-width: 375px;
+  font-size: 14px;
+  background-color:hsl(30, 38%, 92%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: rgba(158,158,166,255);
+  margin: auto;
+}
+
+.card {
+  margin: 15px ;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-box {
+  padding: 20px;
+  overflow: hidden;
+}
+
+.preview-image {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.category {
+  text-transform: uppercase;
+  letter-spacing: 5px;  
+  font-size: 12px;
+}
+
+.product-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  margin: 10px 0;
+  color: hsl(212, 21%, 14%);
+  font-size: 30px;
+}
+
+.product-description{
+  margin: 0 0 15px;
+}
+
+.price-block {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.price {
+  display: inline-block;
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0 20px 0 0;
+}
+
+.price-old {
+  display: inline-block;
+  text-decoration: line-through;
+  align-self: center;
+}
+
+.button-addtocart {
+  display: block;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button-addtocart:hover {
+  background-color: rgba(24,65,49,255);
+}
+
+.addtocart-image {
+  margin-right: 10px;
+}
+
+.attribution {
+  display: block;
+  text-align: center;
+}
+
+.attribution-link {
+  display: inline-block;
+  color: hsl(158, 36%, 37%);
+  cursor: pointer;
+}
+
+ @media only screen and (min-width: 1440px) {
+   .body {
+     display: flex;
+     max-width: 600px;
+     height: 100vh;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+   }
+   
+   .card {
+     align-self: center;
+     display: flex;
+     flex-direction: row;
+   }
+   
+   .preview-image {
+     height: 100%;
+     width: 300px;
+   }
+   
+   .attribution {
+     width: 100%;
+     text-align: center;
+   }
+   
+   .card-box {
+     padding: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+   }
+}
