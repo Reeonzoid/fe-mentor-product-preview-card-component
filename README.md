@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Reeonzoid/fe-mentor-product-preview-card-component)
-- Live Site URL: [Glitch](https://fe-mentor-product-preview-card-component.glitch.me/#)
+- Live Site URL: [Github Pages](https://reeonzoid.github.io/fe-mentor-product-preview-card-component/)
 
 ## My process
 
