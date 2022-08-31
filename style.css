@@ -23,7 +23,7 @@ p, button, a {
 }
 
 .card {
-  margin: 15px ;
+  margin: 20px 15px ;
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
   overflow: hidden;
